@@ -1,0 +1,32 @@
+footer{
+  display: grid;
+  padding: 40px;
+  background-color: rgb(25, 25, 25);
+  color: aliceblue;
+}
+
+ul{
+  margin-left: -35px;
+}
+
+footer > ul > li{
+  list-style: none;
+}
+
+.copyright{
+  text-align: center;
+}
+
+@media only screen and (max-width: 480px){
+  footer{
+    display: grid;
+    padding: 20px;
+    background-color: rgba(25, 25, 25, 0.85);
+    color: aliceblue;
+  }
+
+  ul{
+    margin-left: -35px;
+  }
+
+}

@@ -1,0 +1,130 @@
+p, li, h5{
+  font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  font-size: 75px;
+}
+
+h1, h5{
+  font-family: 'Lato', sans-serif;
+}
+
+body{
+
+}
+
+.content{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+/*  background-image: url('../images/bg.png'); */
+}
+
+.contentImg{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contentTry{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.tryBtn{
+  display: grid;
+  justify-content: flex-end;
+}
+
+/* .content > .item > img > .button{
+  order: 1
+}
+
+.content > .item > img{
+  order: 2
+} */
+
+.item{
+  display: grid;
+  padding: 40px;
+  text-align: center;
+}
+
+#accountManagers{
+  background-color: rgb(15, 25, 225);
+  color: aliceblue;
+}
+
+/* button{
+  height: 50px;
+  width: 200px;
+  border-radius: 30px;
+  margin: 20px 20px 20px 20px;
+} */
+
+
+/* @media only screen and (max-width: 480px){
+  .container{
+    display: grid;
+    padding: 40px;
+    text-align: center;
+  }
+} */
+
+/* img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+} */
+
+h5{
+  color: #ddd;
+}
+
+@media only screen and (max-width: 480px){
+  .content{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .contentImg{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .about{
+    display: grid;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .contentTry{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .tryBtn{
+    display: grid;
+    grid-template-columns: 100%;
+    margin-left: 31%;
+  }
+
+  img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+  }
+
+  h1{
+    font-size: 35px;
+  }
+
+  button{
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    margin: 20px 20px 20px 20px;
+  }
+
+}

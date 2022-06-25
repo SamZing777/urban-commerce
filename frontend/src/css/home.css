@@ -1,0 +1,12 @@
+body{
+  margin: 0 auto
+}
+
+@media only screen and (max-width: 480px){
+  .container{
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px
+  }
+}
